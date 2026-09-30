@@ -1,0 +1,5 @@
+experiment_id,track,method,scenario,seed,rounds,local_epochs,learning_rate,clip_norm,trim,aggregation,precision,recall,f1,accuracy,runtime_seconds,notes
+E001,advanced,FedAvg,non_iid_clean,42,8,1,0.05,,,fedavg,0.9686,0.6354,0.7674,0.7807,7.256,same held-out test protocol as challenge notebook
+E002,advanced,FedAvg,poisoned_scale,42,8,1,0.05,,,fedavg,0.9796,0.4876,0.6511,0.7025,6.293,held-out NSL-KDD test labels used only for evaluation; malicious client is 1 with label-flip and scale attack
+E003,advanced,ClippedTrimmedPeerRobust,poisoned_scale,42,8,1,0.05,1.0,1.0,norm-clipping + peer-distance trim + size-weighted mean,0.9718,0.6178,0.7554,0.7722,6.285,previous baseline defense
+E004,advanced,OptimizedResNetMLP_MultiRobust,poisoned_scale,42,8,1,0.005,1.0,1.0,norm-clipping + multi-criterion anomaly trim + sqrt-size weighted mean,0.9578,0.7402,0.835,0.8335,28.802,"final optimized defense with ResNetMLP, AdamW, FedProx, and sqrt weighting"

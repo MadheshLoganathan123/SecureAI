@@ -1,0 +1,120 @@
+{
+  "selected_track": "Advanced",
+  "architecture": "ResNetMLP 41-32-32-1",
+  "baseline_clean": {
+    "precision": 0.9686,
+    "recall": 0.6354,
+    "f1": 0.7674,
+    "accuracy": 0.7807,
+    "specificity": 0.9728,
+    "balanced_accuracy": 0.8041,
+    "mcc": 0.6226,
+    "roc_auc": 0.9012,
+    "pr_auc": 0.932,
+    "fpr": 0.0272,
+    "fnr": 0.3646,
+    "confusion_matrix": [
+      [
+        9447,
+        264
+      ],
+      [
+        4679,
+        8154
+      ]
+    ],
+    "tn": 9447,
+    "fp": 264,
+    "fn": 4679,
+    "tp": 8154
+  },
+  "baseline_attack": {
+    "precision": 0.9796,
+    "recall": 0.4876,
+    "f1": 0.6511,
+    "accuracy": 0.7025,
+    "specificity": 0.9866,
+    "balanced_accuracy": 0.7371,
+    "mcc": 0.5211,
+    "roc_auc": 0.8995,
+    "pr_auc": 0.9314,
+    "fpr": 0.0134,
+    "fnr": 0.5124,
+    "confusion_matrix": [
+      [
+        9581,
+        130
+      ],
+      [
+        6576,
+        6257
+      ]
+    ],
+    "tn": 9581,
+    "fp": 130,
+    "fn": 6576,
+    "tp": 6257
+  },
+  "previous_defense": {
+    "precision": 0.9718,
+    "recall": 0.6178,
+    "f1": 0.7554,
+    "accuracy": 0.7722,
+    "specificity": 0.9763,
+    "balanced_accuracy": 0.797,
+    "mcc": 0.6122,
+    "roc_auc": 0.9015,
+    "pr_auc": 0.9321,
+    "fpr": 0.0237,
+    "fnr": 0.3822,
+    "confusion_matrix": [
+      [
+        9481,
+        230
+      ],
+      [
+        4905,
+        7928
+      ]
+    ],
+    "tn": 9481,
+    "fp": 230,
+    "fn": 4905,
+    "tp": 7928
+  },
+  "final_defended": {
+    "precision": 0.9578,
+    "recall": 0.7402,
+    "f1": 0.835,
+    "accuracy": 0.8335,
+    "specificity": 0.9569,
+    "balanced_accuracy": 0.8485,
+    "mcc": 0.6954,
+    "roc_auc": 0.952,
+    "pr_auc": 0.9515,
+    "fpr": 0.0431,
+    "fnr": 0.2598,
+    "confusion_matrix": [
+      [
+        9292,
+        419
+      ],
+      [
+        3334,
+        9499
+      ]
+    ],
+    "tn": 9292,
+    "fp": 419,
+    "fn": 3334,
+    "tp": 9499
+  },
+  "f1_recovered": 0.1839,
+  "runtimes_seconds": {
+    "clean": 7.256167900000037,
+    "attack": 6.29259379999985,
+    "previous": 6.28548150000006,
+    "final": 28.802062599999772
+  },
+  "parameter_count": 3905
+}

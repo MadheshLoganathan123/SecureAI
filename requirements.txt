@@ -1,0 +1,9 @@
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.8
+seaborn>=0.13
+torch>=2.2
+nbformat>=5.9
+nbclient>=0.10
+jupyter>=1.0

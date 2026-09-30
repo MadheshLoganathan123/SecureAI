@@ -1,0 +1,6 @@
+Stage,F1,Accuracy,Precision,Recall,Runtime_Seconds
+1. Baseline FedAvg (WeakMLP),0.6484,0.7009,0.98,0.4845,9.403
+2. + Peer Trimming Defense (E003 baseline),0.754,0.7713,0.9728,0.6155,10.579
+3. + ResNetMLP Architecture,0.779,0.7892,0.9655,0.6529,16.503
+4. + AdamW & FedProx Local Training,0.805,0.8093,0.9632,0.6914,29.355
+5. + Multi-criterion Anomaly Defense & Sqrt Weighting,0.835,0.8335,0.9578,0.7402,27.912

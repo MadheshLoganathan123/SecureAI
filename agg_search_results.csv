@@ -1,0 +1,6 @@
+strategy,f1_0.5,acc_0.5,prec_0.5,rec_0.5,opt_thresh,opt_f1
+Sample_Size_Weighting,0.7617,0.7765,0.9691,0.6274,0.45,0.7722
+Sqrt_Size_Weighting,0.774,0.7831,0.9514,0.6524,0.55,0.7695
+Uniform_Weighting,0.7761,0.7807,0.9267,0.6677,0.65,0.7641
+Cosine_Trust_Sample_Size,0.7749,0.7795,0.9252,0.6666,0.65,0.7612
+Cosine_Trust_Sqrt_Size,0.7728,0.7782,0.9271,0.6625,0.6,0.7653

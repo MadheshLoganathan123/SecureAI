@@ -1,4 +1,4 @@
-# CAIRLab Secure AI Hackathon 2026 — Advanced Track (Optimized Final Submission)
+  # SecureAI  — Advanced Track (Optimized Final Submission)
 
 This repository contains the optimized, reproducible federated intrusion-detection submission for the CAIRLab Secure AI Hackathon Day 2–3 Advanced Track. It preserves the starter notebook's NSL-KDD dataset, 5-client non-IID setup, 15,000-row holdout evaluation procedure, and simulated 15× scaled label-flip poisoning attack.
 
